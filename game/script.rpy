@@ -1,3 +1,4 @@
 ﻿label start:
-    "게임을 시작합니다."
+    show parkjuyoun_standard at main_position
+    parkjuyoun "안녕!" 
     jump intro_scene
