@@ -5,5 +5,5 @@ transform main_position:
 
 image parkjuyoun_standard = im.Scale("characterImages/parkjuyoun.PNG", 1600, 2200)
 
-define parkjuyoun = Character('박주연', color="#c8ffc8")
+define parkjuyoun = Character('박주연', color="#a01361")
 

@@ -1,4 +1,5 @@
 ﻿label start:
     show parkjuyoun_standard at main_position
     parkjuyoun "안녕!" 
-    jump intro_scene
+    parkjuyoun "너 이름이 뭐니?"
+    jump typeName
