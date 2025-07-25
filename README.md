@@ -1,7 +1,7 @@
 # 읽어주세요 
 
 # 중요 !
-# - Chapter 단위로 branch 파기
+### Chapter 단위로 branch 파기
 - branch 양식 -> "add/chapter1_1"
 - commit message 양식에 따라 작성하기
 - "fix/chapter2로 jump되는 오류 수정"
@@ -16,7 +16,7 @@ git push
 
 ## Chapter 파일 분리
 
-### - script.rpy를 main으로 생각하기. (시작)
+### script.rpy를 main으로 생각하기. (시작)
 - Scenes 내 chapter label 작성하기
 - 양식은 "chapter1_1"
 - 챕터 내 별도 씬이 있을 경우 "chapter1_1_blossom:
