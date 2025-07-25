@@ -26,7 +26,19 @@ git push
 
 - 이미지 해당 파일에 구분 지어 넣기
 
+# 변수명은 camelCase로.
+
 ## 캐릭터 변수명
 
 주인공|main 
 박주연|parkjuyoun
+
+## 캐릭터별 호감도 변수명
+
+인물 이름	호감도 변수명
+박주연	likeJuyoun
+정성경	likeSungkyung
+박여름	likeYeoreum
+Monika	likeMonika
+이현서 (조력자)	likeHyunseo
+김민수 교수	likeProf
