@@ -7,8 +7,8 @@ screen set_name(title, init_name):
             spacing 20
             text title xalign 0.5
             input default init_name xalign 0.5
-            
+
 label typeName:
-    $ name = renpy.call_screen("set_name", title="내 이름이 뭐였지?", init_name="이름 입력")
+    $ name = renpy.call_screen("set_name", title="내 이름이 뭐였지?", init_name="서경민")
     $ main = Character(name, color="#0c0808")
     jump chapter1
