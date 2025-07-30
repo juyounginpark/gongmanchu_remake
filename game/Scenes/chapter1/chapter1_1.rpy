@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 label chapter1_1:
 
 
@@ -17,3 +18,6 @@ label chapter1_1:
     main "'말투도 차분하고... 진짜 선배 같다..'"
     
     jump chapter1_2:
+=======
+label chapter1_1:
+>>>>>>> 1bc930a31fbb7a7cf71e9c8cbe25683440ee9e27
