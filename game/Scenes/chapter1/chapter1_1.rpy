@@ -1,7 +1,5 @@
 label chapter1_1:
-    define pjy = Character('박주연')
-    define lhs = Character('이현서')
-    define jsk = Character('정성경')
+
 
     #scene 강당
     main "'...와, 여기가 한국대학교의 대강당이구나.'"
