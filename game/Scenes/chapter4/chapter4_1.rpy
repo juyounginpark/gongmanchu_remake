@@ -52,7 +52,3 @@ label chapter4_1:
     pyr "그럼 좀 같이 걸을래?"
     main "! ...그래!"
     jump chapter4_2
-
-
-
-
