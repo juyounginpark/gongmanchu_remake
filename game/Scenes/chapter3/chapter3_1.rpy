@@ -22,5 +22,5 @@ label chapter3_1:
     #show lhs_smile at center
     lhs "오~ 좋아. 역시 너밖에 없다!"
 
-    jump chapter3_2:
+    jump chapter3_2
     

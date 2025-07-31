@@ -93,4 +93,5 @@ label chapter6_1:
             pyr "알겠어!"
             pyr "내일 연락할게!"
             main "응 내일봐!"
+
     jump chapter6_2

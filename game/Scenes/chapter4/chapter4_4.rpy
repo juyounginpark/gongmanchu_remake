@@ -37,7 +37,7 @@ label chapter4_4:
 
     #show parkjuyoun_serious at main_position
     pjy "…"
-    show parkjuyoun_standard at main_position
+    show pjy_standard at main_position
     pjy "나도 이만 할일이 있어서, 안녕~"
     main "아, 네!"
 

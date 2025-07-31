@@ -16,4 +16,4 @@ label chapter1_2:
     lhs "그니까. 이름도 박주연이잖아. 이름도 예쁘셔."
     main "진짜, 네 말이 딱 맞는거 같아."
     
-    jump chapter1_3:
+    jump chapter1_3

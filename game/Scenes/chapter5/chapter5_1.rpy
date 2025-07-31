@@ -1,5 +1,3 @@
-define kms = character("김민수")
-
 label chapter5_1:
     #scene 대학 강의실
     #show lhs_smile at center

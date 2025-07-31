@@ -34,4 +34,4 @@ label chapter1_3:
     #show black
     셋 "건배!"
     
-    jump chapter1_4:
+    jump chapter1_4

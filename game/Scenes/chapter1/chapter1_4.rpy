@@ -22,4 +22,4 @@ label chapter1_4:
     #show black
     main "'낯설었지만... 그래도 즐거웠다....'"
     
-    jump chapter2_1:
+    jump chapter2_1

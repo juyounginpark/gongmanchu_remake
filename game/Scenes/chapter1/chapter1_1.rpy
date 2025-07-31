@@ -16,4 +16,4 @@ label chapter1_1:
     pjy "저는 오늘 도우미니까 나중에 또 봬요~"
     main "'말투도 차분하고... 진짜 선배 같다..'"
     
-    jump chapter1_2:
+    jump chapter1_2

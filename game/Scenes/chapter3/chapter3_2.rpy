@@ -6,4 +6,4 @@ label chapter3_2:
     main "'....그래도 조금 떨리네.'"
     main "'잘 할 수 있겠지...?'"
 
-    jump chapter3_3:
+    jump chapter3_3

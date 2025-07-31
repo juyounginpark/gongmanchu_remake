@@ -45,4 +45,4 @@ label chapter5_3:
         main "'김민수 교수님과의 대화는 짧았지만... 가슴 한켠이 가벼워지는 기분이네.'"
         main "'이제, 난 뭘 더 우선해야 할지 조금은 알 것 같아.'"
 
-    jump chapter6_1:
+    jump chapter6_1
