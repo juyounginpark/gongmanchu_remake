@@ -27,7 +27,7 @@ label chapter2_4:
 
     main "선배도요?"
 
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "나라고 처음부터 다 자연스러웠겠어? 근데 그런 순간에 누가 옆에 있어주면, 이상하게 좀 덜 어색해져."
 
     main "…지금이 딱 그 느낌이네요."
@@ -39,4 +39,4 @@ label chapter2_4:
 
     pjy "넌 참 좋은애같아. 생각보다 훨씬 더. 앞으로도 계속 함께 하자?"
     main "… 네."
-    jump champter3_1
+    jump chapter3_1

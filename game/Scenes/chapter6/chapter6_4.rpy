@@ -115,6 +115,6 @@ label chapter6_4:
     #show parkyeoreum_shame at main_position
     pyr "그래주면 다행이구…"
 
-    monika "…"
+    mnk "…"
 
     jump chapter7_1

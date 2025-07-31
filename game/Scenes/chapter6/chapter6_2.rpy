@@ -3,7 +3,7 @@ label chapter6_2:
 
     "축제 분위기가 한창 무르익은 오후"
 
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "오~ 경민이 여기!"
 
     main "(우와… 진짜… 너무 눈에 띈다)"
@@ -19,7 +19,7 @@ label chapter6_2:
 
     main "네, 넷?"
 
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "흐흐, 가자! 나 진짜 가보고 싶은 부스 있단 말야!"
 
     # 경민이 주연의 손에 이끌려 걷는다
@@ -35,7 +35,7 @@ label chapter6_2:
     #show parkjuyoun_prank at main_position
     pjy "후훗~ 귀여워."
 
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "좀 돌아볼까?"
     
     pjy "저기 풍선다트 부스 가볼래?"
@@ -103,7 +103,7 @@ label chapter6_2:
     #show parkjuyoun_serious at main_position
     pjy "음? 입에 묻었어. 가만 있어봐…"
 
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "묻히고 먹고그래~"
 
     pjy ""
@@ -144,7 +144,7 @@ label chapter6_2:
     "타로 리더" "‘별’… 이건 ‘희망’과 ‘진심’을 뜻하는 카드예요."
     "타로 리더" "어떤 감정이든, 진심을 전하면 이루어질 가능성이 높다는 뜻이죠."
 
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "흐음… 그럼 말해볼까, 내 진심?"
 
     main "에, 네?!"
@@ -185,6 +185,6 @@ label chapter6_2:
     main "…네."
     main "꼭 지킬게요. 소원이니까."
 
-    monika "…"
+    mnk "…"
 
     jump chapter6_3

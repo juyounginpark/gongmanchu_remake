@@ -32,6 +32,6 @@ label chapter1_3:
     lhs "좋아요! 새로운 시작을 위하여!"
 
     #show black
-    셋 "건배!"
+    "건배!"
     
     jump chapter1_4

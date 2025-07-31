@@ -3,6 +3,9 @@ transform main_position:
     ypos 1000
     anchor (0.5, 0.5)
 
+#system
+define system = Character('System', color="#000000")
+
 # 박주연
 define pjy = Character('박주연', color="#a01361")
 image pjy_standard = im.Scale("characterImages/parkjuyoun.PNG", 1600, 2200)
@@ -12,6 +15,7 @@ define lhs = Character('이현서', color="#6c86c9")
 #images
 
 # 정성경
+define A = Character('???', color="#ffffff")
 define jsk = Character('정성경', color="#fff42d")
 image jsk_standard = im.Scale("characterImages/jeongseongyoung.PNG", 1600, 2200)
 
