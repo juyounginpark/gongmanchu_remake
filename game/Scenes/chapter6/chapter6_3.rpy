@@ -1,3 +1,13 @@
+screen write_poet(title, init_name):
+    frame:
+        xpadding 50
+        ypadding 200
+        xalign 0.5 yalign 0.5
+        vbox:
+            spacing 20
+            text title xalign 0.5
+            input default init_name xalign 0.5
+
 label chapter6_3:
 
     #[장소: 캠퍼스 문학 체험관]
@@ -30,8 +40,6 @@ label chapter6_3:
     jsk "빨리, 가볍게 스치면 알 수 없는 사람."
     jsk "천천히 보고, 오래 곁있어야 비로소 드러나는…"
 
-    main "(빠져들 것만 같은 설명이다.)"
-
 
     show jeongseonggyoung_standard at main_position
     jsk "그런 사람이 되고싶었어."
@@ -49,18 +57,23 @@ label chapter6_3:
     main "기억, 따뜻함, 봄…"
 
     jsk "…"
-
+    $ poet = renpy.call_screen("write_poet", title="|기억| |따뜻함| |봄|", init_name=" ")
     main "나… 다 썼다."
 
     jsk "나도."
     jsk "한번 읽어봐줄래?"
 
-    main "너를 처음본건, 봄이었다."
-    main "햇살도, 내 마음도 따뜻했고,"
-    main "기억은 그때부터 시작됐다."
 
-    main "… 어때?"
+    $ mid =  len(poet) // 2
+    $ poet_head = poet[:mid]
+    $ poet_tail = poet[mid:]
 
+    
+
+    main "... \"[poet_head]"
+
+    jsk "[poet_tail]\"..."
+    
     jsk "잘 썼네. …네 말투가 느껴져."
 
     main "너것도, 한번 읽어봐줄 수 있어?"
