@@ -1,7 +1,3 @@
-define pjy = Character('박주연')
-define lhs = Character('이현서')
-define jsk = Character('정성경')
-
 label chapter3_1:
     #scene 대학강의실
     #show lhs_smile at center
