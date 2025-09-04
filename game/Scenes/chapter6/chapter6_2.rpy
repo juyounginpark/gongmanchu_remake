@@ -38,6 +38,7 @@ label chapter6_2:
     #show parkjuyoun_standard at main_position
     pjy "좀 돌아볼까?"
     
+    #->요소
     pjy "저기 풍선다트 부스 가볼래?"
     pjy "나 저거 진짜 잘해!"
 
