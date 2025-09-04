@@ -33,5 +33,7 @@ label chapter1_3:
 
     #show black
     "건배!"
+
+    # 박자맞추기 게임
     
     jump chapter1_4

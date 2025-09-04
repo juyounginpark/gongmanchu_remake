@@ -21,6 +21,7 @@ label chapter2_1:
     main "(다들 자기 동아리 홍보하느라 열오르는 분위기…)"
     main "(어…? 저기 저 사람…)"
 
+    
     show parkjuyoun_standard at main_position
     pjy "‘부트캠프’로 코딩 알려주는 해달! 코딩 왕초보도 환영~"
 

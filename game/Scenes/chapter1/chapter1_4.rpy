@@ -1,5 +1,6 @@
 label chapter1_4:
     #scene 술집앞 밤거리 -> 실루엣만 보이게 처리해주세요.
+    # effect- > 어지러운느낌
     main "으음..."
     #show pjy_silhouette at center
     pjy "현서야, 경민이 많이 취한거 같은데 혹시 경민이 케어해줄 수 있어?"
