@@ -53,7 +53,7 @@ pyr "음… 뭔가 허전한데."
 #show parkyeoreum_prank at main_position
 pyr "케이크 먹지 않을래? 흐흐."
 
-main "그래, 먹자!"
+main "하하... 좋아."
 
 main "(다행이다... )"
 
