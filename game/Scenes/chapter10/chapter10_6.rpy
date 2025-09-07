@@ -1,7 +1,6 @@
 label chapter10_6:
 
-label ch10_6:
-# 배경: 캠퍼스 연구실 앞
+# [배경: 캠퍼스 연구실 앞]
 
 #show minsu_standard at main_position
 kms "저기."
@@ -42,7 +41,5 @@ main "좋습니다."
 
 main "(교수님의 말은 언제나 무겁지만, 이상하게 따뜻하다.)"
 main "(연애는 아니지만… 이게 아마도 내게 가장 큰 성장일지도 모른다.)"
-
-return
 
 return
