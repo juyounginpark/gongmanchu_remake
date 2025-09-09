@@ -2,8 +2,10 @@ label chapter1_1:
 
 
     #scene 강당
+
     main "'...와, 여기가 한국대학교의 대강당이구나.'"
     main "'엄청 넓은데 안내해주시는 분은 어딨지...?'"
+    show pjy_standard at center
     # show pjy_smile at center
     pjy "안녕하세요~ 신입생 맞으시죠? 어느 과예요?"
     main "'아, 네. 컴퓨터학부 신입생이예요.'"
