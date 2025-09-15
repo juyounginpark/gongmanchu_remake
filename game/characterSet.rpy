@@ -1,10 +1,67 @@
+# === 상수 정의 ===
+define X_LEFT   = 0.0
+define X_CENTER = 0.5
+define X_RIGHT  = 1.0
 
+define Y_TOP    = 0.0
+define Y_MID    = 0.0
+define Y_BOTTOM = 0.0
+
+# === 포지션 정의 ===
+define left_top    = Position(xalign=X_LEFT,   yalign=Y_TOP)
+define mid_top     = Position(xalign=X_CENTER, yalign=Y_TOP)
+define right_top   = Position(xalign=X_RIGHT,  yalign=Y_TOP)
+
+define left_mid    = Position(xalign=X_LEFT,   yalign=Y_MID)
+define center      = Position(xalign=X_CENTER, yalign=Y_MID)
+define right_mid   = Position(xalign=X_RIGHT,  yalign=Y_MID)
+
+define left_low    = Position(xalign=X_LEFT,   yalign=Y_BOTTOM)
+define mid_low     = Position(xalign=X_CENTER, yalign=Y_BOTTOM)
+define right_low   = Position(xalign=X_RIGHT,  yalign=Y_BOTTOM)
+
+# === 연출용 ===
+define far_left    = Position(xalign=-0.2,     yalign=Y_BOTTOM)
+define far_right   = Position(xalign=1.2,      yalign=Y_BOTTOM)
+define center_high = Position(xalign=X_CENTER, yalign=0.3)
+define tilt_left   = Position(xalign=0.3,      yalign=Y_MID)
+define tilt_right  = Position(xalign=0.7,      yalign=Y_MID)
+
+transform bounce:
+    yoffset -15
+    linear 0.15 yoffset 0
+    yoffset 0
+    linear 0.15 yoffset -10
+    linear 0.15 yoffset 0
+
+init python:
+    # This is the new callback function.
+    # It gets called for different character events like "show", "hide", and "say".
+    def bounce_talker(event, **kwargs):
+
+        # We only want to do something when a character starts speaking.
+        if event == "say":
+            # 'who' is the character object that is speaking.
+            # We get their image tag to apply the transform.
+            who = kwargs.get('who', None)
+            if who and who.image_tag:
+                renpy.show(who.image_tag, at_list=[bounce], tag=who.image_tag)
+
+    # This is the correct, modern configuration variable.
+    config.character_callback = bounce_talker
+
+# standard 
+#with fade → 화면이 점점 어두워졌다가 밝아짐
+#with dissolve → 부드럽게 전환
+#with pixellate → 픽셀화되면서 전환
+#with vpunch → 화면이 위아래로 흔들림
+#with hpunch → 화면이 좌우로 흔들림
 
 #system
 define system = Character('System', color="#000000")
 
 #배율
-define zoomNUm = 0.3
+define zoomNUm = 0.5
 # 박주연
 define pjy = Character('박주연', color="#a01361")
 #standard

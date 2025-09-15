@@ -22,7 +22,7 @@ label chapter2_1:
     main "(어…? 저기 저 사람…)"
 
     
-    show parkjuyoun_standard at main_position
+    #show parkjuyoun_standard at main_position
     pjy "‘부트캠프’로 코딩 알려주는 해달! 코딩 왕초보도 환영~"
 
     main "(어? 주연 선배다… 저기서 홍보 중이네)"
