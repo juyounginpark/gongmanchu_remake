@@ -14,6 +14,12 @@ git push
 ```
 - 위 내용 꼭 지키셔야함.
 
+# commit message
+- script 수정 시 -> script:
+- 기능 추가 시 (interaction) -> feat:
+- setting 변경 시 -> setting:
+
+
 ## Chapter 파일 분리
 
 ### script.rpy를 main으로 생각하기. (시작)
