@@ -34,21 +34,6 @@ transform bounce:
     linear 0.15 yoffset -10
     linear 0.15 yoffset 0
 
-init python:
-    # This is the new callback function.
-    # It gets called for different character events like "show", "hide", and "say".
-    def bounce_talker(event, **kwargs):
-
-        # We only want to do something when a character starts speaking.
-        if event == "say":
-            # 'who' is the character object that is speaking.
-            # We get their image tag to apply the transform.
-            who = kwargs.get('who', None)
-            if who and who.image_tag:
-                renpy.show(who.image_tag, at_list=[bounce], tag=who.image_tag)
-
-    # This is the correct, modern configuration variable.
-    config.character_callback = bounce_talker
 
 # standard 
 #with fade → 화면이 점점 어두워졌다가 밝아짐

@@ -3,12 +3,12 @@ label chapter1_1:
 
     #scene 강당
 
-    main "'...와, 여기가 한국대학교의 대강당이구나.'"
-    main "'엄청 넓은데 안내해주시는 분은 어딨지...?'"
+    "...와, 여기가 한국대학교의 대강당이구나."
+    "엄청 넓은데 안내해주시는 분은 어딨지...?"
     
     show pjy_standard at mid_low
     pjy "안녕하세요~ 신입생 맞으시죠? 어느 과예요?"
-    main "'아, 네. 컴퓨터학부 신입생이예요.'"
+    main "아, 네. 컴퓨터학부 신입생이예요."
     
     hide pjy_standard
     show pjy_joke_1 at mid_low
@@ -22,6 +22,6 @@ label chapter1_1:
     pjy "저는 오늘 도우미니까 나중에 또 봬요~"
     
     hide pjy_standard with fade
-    main "'말투도 차분하고... 진짜 선배 같다..'"
+    "'말투도 차분하고... 진짜 선배 같다..'"
     
     jump chapter1_2
