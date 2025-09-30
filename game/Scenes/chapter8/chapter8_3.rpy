@@ -1,33 +1,34 @@
 label chapter8_3:
 
-# [배경: 도서관 앞]
+    # [배경: 강의실 복도]
+    
+    show pjy_sad_1 at mid_low
+    pjy "" 
+    main "(선배다!)"
+    main "어, 선배. 안녕하세요."
+    pjy "... 응."
+    main "(반응이...)"
+    main "(소문, 신경쓰고 있으신걸까.)"
+    pjy "요새 바쁜가봐? 연락이 통 없네."
+    main "아, 시험 기간이라 그런지..."
+    pjy "그래?"
 
-jsk ""  # 성경 대사 빈 칸
+    hide pjy_sad_1
+    show pjy_angry_1 at mid_low
+    pjy "그렇다기엔 친구 많이 만나고 다니는 것 같던데."
+    pjy "뭐, 어디까지나 소문일 뿐일테지만."
+    main "소문은 정말 사실이 아니에요..."
+    
+    hide pjy_angry_1
+    show pjy_sad_1 at mid_low
+    pjy "..."
+    pjy "그 모니카라는 여자애랑은 잘 지내는 것 같던데."
+    pjy "누구랑 있던 그건 너 자유니까 내가 간섭할건 없지."
+    pjy "시험 준비 열심히 해."
+    pjy "그럼."
 
-main "(어? 성경이잖아?)"
-main "(왜… 아는 척을 안하고 가는거지.)"
+    main "아..."
 
-main "성경아!"
+    hide pjy_sad_1
 
-jsk "어, 응. 안녕."
-
-main "왜그래? 표정이…"
-
-jsk "별건 아니고. 너 소문, 들었어."
-
-main "아…"
-main "누가 그런말을 하고 다니는진 모르겠는데, 그건 헛소문이야."
-
-jsk "…"
-
-main "믿어줬으면 좋겠어. 이상한 소문에 휘말리게해서 미안해…"
-
-jsk "나도 믿고싶어."
-jsk "그러고 싶은데, 요즘은 너 모습이… 조금 낯설어서."
-
-main "…"
-
-jsk "시험 끝나고 얘기하자."
-jsk "지금은 너도, 나도 집중해야할 것 같아."
-
-jump chapter8_4
+    jump chapter9_1

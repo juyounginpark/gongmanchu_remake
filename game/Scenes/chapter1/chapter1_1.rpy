@@ -1,5 +1,5 @@
 label chapter1_1:
-
+    jump chapter8_5
 
     #scene 강당
 

@@ -1,42 +1,33 @@
 label chapter2_4:
     #[배경: 산책길]
 
-    "(모든 활동이 끝나고, 잠시 피곤해진 나는 밖으로 나왔다)"
+    "(점점 MT의 열기가 식어가던 중, 잠시 피곤해진 나는 밖으로 나왔다)"
 
-    show parkjuyoun_standard at main_position
+    show pjy_standard at mid_low with dissolve
     pjy "혼자 나왔네?"
     main "아, 네. 선배도요?"
-
     pjy "응. 그냥 바람 쐐러 왔는데 우연히 너가 있길래."
-    main "아… 우연히…"
+    main "(우연히…)"
+    pjy "좋아해. " 
+    extend "조용한 밤에 산책하는거."
+    main "저도요. "
+    extend "무엇보다 안은 너무 기가 빨려서..."
+    pjy "그러게. 나도 좀 힘들어서 나왔어."
+    main "에, 정말요?"
 
-    pjy "뭐, 나쁘진 않지. 조용한 밤 산책도."
-    main "여긴 되게 조용하네요."
-
-    pjy "다들 방에서 수다 떠느라 바쁘니까. 나도 거기 있었으면 아무 말 못 했을 것 같더라."
-    main "왜요? 선배는 분위기 메이커잖아요."
-
-    pjy "가끔은… 말 안 해도 되는 분위기가 좋아. 너는 시끄러운데서 좀 어색해하던데?"
+    hide pjy_standard
+    show pjy_sad_1 at mid_low
+    pjy "되게 의외란듯 말하네."
+    main "아... 그게, 선배는 그런 분위기 좋아하시는 줄 알았거든요."
+    pjy "뭐, 가끔은… 말 안 해도 되는 분위기가 좋아."
+    pjy "너도 많이 힘들어 보이던데."
     main "아하하… 티 났어요?"
 
+    hide pjy_sad_1
+    show pjy_standard at mid_low
     pjy "아니. 나만 봤을거야."
-    main "부끄럽네요."
+    main "부끄럽네요..."
 
-    #show parkjuyoun_serious at main_position
-    pjy "그런거, 나도 알지. 나도 그럴때가 있었거든."
+    hide pjy_standard
 
-    main "선배도요?"
-
-    #show parkjuyoun_standard at main_position
-    pjy "나라고 처음부터 다 자연스러웠겠어? 근데 그런 순간에 누가 옆에 있어주면, 이상하게 좀 덜 어색해져."
-
-    main "…지금이 딱 그 느낌이네요."
-
-    "(잠시 걷는다.)"
-
-    pjy "경민아. 오늘 하루… 너가 있어서 편했어."
-    main "… 저도요."
-
-    pjy "넌 참 좋은애같아. 생각보다 훨씬 더. 앞으로도 계속 함께 하자?"
-    main "… 네."
     jump chapter3_1

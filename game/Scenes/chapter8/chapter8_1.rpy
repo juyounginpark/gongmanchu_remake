@@ -1,46 +1,55 @@
 label chapter8_1: 
+    # [배경: 강의실]
 
-#갈등이 있으려면 함께한 기억이 있어야하는데 만남(공통) 데이트(선택) 이다 보니 부자연스러움
-#만남을 더 길게 할까 아니면 데이트를 공통으로 할까 고민중임
-#데이트 공통해서 데이트 중에 호감도 차이를 이용해 루트 타게 하면 그게 더 재밌을지도 모르겠음
-#그럼 모니카 루트도 좀 더 재밌게 연결지을 수도 있을지도 모르겠음
-#아님 걍 갈등을 소문으로만 해놓으면 되긴한데... 뭐 그정도의 개연성이 필요하나 싶기도...
+    main "하아… 잠온다."
 
-#일단 많이 고쳐써야겠다...
+    show lhs_standard at mid_low with dissolve
+    lhs "경민 하이~"
+    main "어어, 안녕!"
+    lhs "이제 중간고사도 얼마 안남았네."
 
-# [배경: 강의실]
+    hide lhs_standard
+    show lhs_sad_1 at mid_low
+    lhs "요새 바쁘지? 통 연락도 없고."
+    main "아하하… 미안, 일이 많아서."
 
-main "하아… 잠온다."
+    hide lhs_sad_1
+    show lhs_standard at mid_low
+    lhs "아냐, 나도 노느랴 공부하랴 할일이 많다."
+    lhs "아 맞다, 요새 너 무슨 일 있어?"
 
-#show hyunseo_standard at main_position
-lhs "경민 하이~"
+    hide lhs_standard
+    show lhs_sad_1 at mid_low
+    lhs "과에서 너 안좋은 얘기가 들리길래..."
 
-main "어어, 안녕!"
+    main "어떤 소문...?"
 
-lhs "이제 중간고사도 얼마 안남았네."
-lhs "요새 바쁘지? 통 연락도 없고."
+    hide lhs_sad_1
+    show lhs_angry_1 at mid_low
+    lhs "대충 어장남이라는 소문이랬는데..."
 
-main "아하하… 미안, 일이 많아서."
+    hide lhs_angry_1
+    show lhs_standard at mid_low
+    lhs "난 널 당연히 믿어. 너가 그런 애는 아니잖아."
+    lhs "공부하느라 바쁘겠지만, 조금은 신경쓰는게 좋을 것 같아."
+    lhs "아, 강의 시작했다!"
 
-lhs "아냐, 나도 노느랴 공부하랴 할일이 많다."
-lhs "아 맞다, 요새 너 여러 여자랑 썸탄다고 들었는데? #"
-lhs "많이 바쁘겠다~ 화이팅해!"
+    hide lhs_standard with dissolve
+    main "(뭐지...? 누가 그런 소문을?)"
+    main "(설마...)"
+    
+    show mnk_standard at mid_low with dissolve
+    main "..."
+    hide mnk_standard with dissolve
+    main "하..."
+    main "(정말 어떡하지.)"
+    main "(이젠 시험기간인데...)"
+    main "(일단 시험에 몰입하고, 끝난 후에 생각하자...)"
+    main "이제부턴 정말 공부뿐이야!"
 
-main "으, 엣?? 그런건 어디서 들은거야…"
+    #kms
+    kms "...?"
 
-lhs "여자애들이 그러더라. 난 당연히 널 믿지만."
-lhs "조금은 신경쓰는 것도 좋을거 같아."
-lhs "아, 강의 시작했다!"
+    main "아, 앗... 죄송합니다..."
 
-main "(으음… 곤란한 소문이 도는군.)"
-main "(또, 확실히 노느라 공부를 너무 소홀히 대한 것 같아)"
-main "(이젠 정말… 공부다!)"
-main "좋아. 결심했어!!"
-
-
-#show kms_standard at main_position
-kms "… ?"
-
-main "아, 앗… 죄송합니다…"
-
-jump chapter8_2
+    jump chapter8_2

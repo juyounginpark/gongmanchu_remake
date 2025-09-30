@@ -3,13 +3,9 @@ label chapter9_1:
 # [배경: 경민의 집 - 밤]
 
 main "오늘도 힘든 날이었다."
-
 main "자자…"
-
 main "…"
-
 main "정말… 신경쓰여서 잠이 오질 않잖아."
-
 main "대체 내가 뭔잘못을 한건데…"
 
 #회상
@@ -18,7 +14,9 @@ kms "그리고, 자신감."
 
 main "…"
 
-main "이젠 정말 선택할 때야."
+main "내가 진심을 내비치지 않았던가."
+main "요새 다른 할 일도 그렇고, 바빠서 거의 연락도 안했네."
+main "이러기는 싫었는데..."
 
 "(전화음)"
 
@@ -62,17 +60,12 @@ menu:
 
     "→ 전화를 받지 않는다":
         main "그래. 지금은 이 애를 생각할 때가 아니야."
-        main "어서… 선택할때야."
+        main "어서 오해를 풀고 돌아가야해."
+        if likeJuyoun >= 50: 
+            jump chapter9_2
 
-        menu:
-            "→ 주연":
-                main "내일 시간 돼요?"
-                jump chapter9_2
+        elif likeSungkyung >= 50:
+            jump chapter9_3
 
-            "→ 성경":
-                main "내일, 같이 도서관 가지 않을래?"
-                jump chapter9_3
-
-            "→ 여름":
-                main "내일, 같이 카페가서 공부할래?"
-                jump chapter9_4
+        elif likeYeoreum >= 50:
+            jump chapter9_4

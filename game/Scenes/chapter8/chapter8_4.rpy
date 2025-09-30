@@ -1,39 +1,32 @@
 label chapter8_4:
 
-# [배경: 운동장]
+    # [배경: 도서관 앞]
 
-#show parkyeoreum_standard at main_position
+    show jsk_angry_1 at mid_low
+    jsk ""  # 성경 대사 빈 칸
+    main "(어? 성경이잖아?)"
+    main "(왜... 아는 척을 안하고 가는거지.)"
+    main "성경아!"
 
-pyr "경민아! 안녕!"
+    hide jsk_angry_1
+    show jsk_angry_2 at mid_low
+    jsk "어, 응. 안녕."
+    main "왜그래? 표정이..."
+    jsk "별건 아니고. 너 소문, 들었어."
+    main "아..."
+    main "누가 그런말을 하고 다니는진 모르겠는데, 그건 헛소문이야."
+    jsk "..."
+    main "믿어줬으면 좋겠어. 이상한 소문에 휘말리게해서 미안해..."
 
-main "어! 응, 안녕."
+    hide jsk_angry_2
+    show jsk_angry_3 at mid_low
+    jsk "나도 믿고싶어."
+    jsk "그러고 싶은데, 요즘은 너 모습이... 조금 낯설어서."
+    main "..."
 
-pyr "왠지 오랜만이야. 요새 잘 안보이네…"
+    hide jsk_angry_3
+    show jsk_angry_2 at mid_low
+    jsk "시험 끝나고 얘기하자."
+    jsk "지금은 너도, 나도 집중해야할 것 같아."
 
-main "응. 시험 준비 때문에 조금 바쁜 것 같아…"
-
-pyr "그치만… 다른 사람하고 있는 건, 잘만 보이던데?"
-
-main "(당황) 그건… 그냥 우연이야."
-
-#show parkyeoreum_serious at main_position
-pyr "나도 친구로 지내는 게 제일 편하다고 생각했거든."
-pyr "근데 네가 다른 사람이랑 웃고 있는 거 보면… 이상하게 마음이 쓰여."
-
-main "여름아…"
-
-pyr "미안. 나도 내가 왜 이런지 모르겠어."
-pyr "시험 끝나면… 다시 얘기하자."
-
-main "그래…"
-
-main "…"
-
-main "정말 왜 이런거지…"
-
-#show monika_standard at main_position
-mnk "…"
-mnk "계획대로."
-
-
-jump chapter9_1
+    jump chapter9_1

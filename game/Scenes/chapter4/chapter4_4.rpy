@@ -1,14 +1,22 @@
 label chapter4_4:
     #[장소: 캠퍼스 산책길2]
 
+    show pyr_standard at mid_low
     main "여름이 오려나, 벌써 덥네."
     pyr "… 그러네. 있잖아."
     main "응?"
+
+    hide pyr_standard
+    show pyr_shy_2 at mid_low
     pyr "너는 참 변한게 없는것 같아. 상냥하고, 말도 잘 들어주고."
-    #show parkyeoreum_shame at main_position
+
+    hide pyr_shy_2
+    show pyr_shy_1 at mid_low
     pyr "그래서 그런데…"
 
-    #show parkjuyoun_standard at main_position
+    hide pyr_shy_1
+    show pyr_shorked_1 at left_low
+    show pjy_standard at right_low with vpunch
     pjy "어라? 경민이 안녕? 여기서 보네."
     main "주연 선배…!"
     pjy "이쪽은…"
@@ -24,28 +32,40 @@ label chapter4_4:
             $ likeYeoreum += 0
             main "아… 그냥 친구요."
 
-    #show parkyeoreum_serious at main_position
     pyr "안녕하세요…"
-    parkjuyoun "아, 안녕하세요~"
-    #show parkyeoreum_standard at main_position
-    pyr "난 이만 가볼게. 아. 잠시만… 손 좀 줘봐."
+    
+    hide pjy_standard
+    show pjy_joke_1 at right_low
+    pjy "아, 안녕하세요~"
 
-    main "이건… 반지잖아."
-    #show parkyeoreum_shame at main_position
+    hide pyr_shorked_1 
+    show pyr_joke_1 at left_low 
+    pyr "난 이만 가볼게. 아. 잠시만… 폰 좀 줘봐."
+    main "(엇, 전화번호를...)"
+
+    hide pyr_joke_1
+    show pyr_standard at left_low 
     pyr "그럼."
     main "어… 응. 잘가."
+    hide pyr_standard with dissolve
 
-    #show parkjuyoun_serious at main_position
+    hide pjy_joke_1
+    show pjy_sad_1 at mid_low
     pjy "…"
-    show pjy_standard at main_position
+
+    hide pjy_sad_1
+    show pjy_standard at mid_low 
     pjy "나도 이만 할일이 있어서, 안녕~"
     main "아, 네!"
 
+    hide pjy_standard with dissolve
+
     "(둘이 멀어지는 모습을 번갈아 보는 그때-)"
     "(조용히 반대쪽에 있던 한 사람)"
+    show jsk_angry_3 at mid_low with dissolve
     main "성경이…?"
-    #show jeongseonggyoung_serious at main_position
     "(말없이 경민을 바라보다 손을 흔들고 사라진다)"
+    hide jsk_angry_3 with dissolve
 
     main "하아… 마음속이 복잡하네."
 
