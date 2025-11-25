@@ -245,14 +245,13 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("되감기") action Rollback()
-            textbutton _("대사록") action ShowMenu('history')
-            textbutton _("넘기기") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("자동진행") action Preference("auto-forward", "toggle")
-            textbutton _("저장하기") action ShowMenu('save')
-            textbutton _("Q.저장하기") action QuickSave()
-            textbutton _("Q.불러오기") action QuickLoad()
-            textbutton _("설정") action ShowMenu('preferences')
+            textbutton _("ROLLBACK") action Rollback()
+            textbutton _("SKIP") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("AUTO") action Preference("auto-forward", "toggle")
+            textbutton _("SAVE") action ShowMenu('save')
+            textbutton _("QUICK SAVE") action QuickSave()
+            textbutton _("QUICK LOAD") action QuickLoad()
+            textbutton _("SETTING") action ShowMenu('preferences')
 
 
 ## 플레이어가 UI(스크린)을 일부러 숨기지 않는 한 퀵메뉴가 게임 내에 오버레이로
@@ -349,7 +348,7 @@ screen main_menu():
     ## 이렇게 하면 다른 메뉴 화면이 모두 교체됩니다.
     tag menu
 
-    add "gui/mainpage.png"
+    add "gui/main_menu.png"
 
     ## 이 빈 프레임은 기본 메뉴를 어둡게 만듭니다.
     frame:

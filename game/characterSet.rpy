@@ -99,7 +99,7 @@ define system = Character('System', color="#000000")
 define zoomNUm = 0.65
 
 # 박주연
-define pjy = Character('박주연', color="#a01361")
+define pjy = Character('박주연', color="#f664b4")
 image pjy standard = Transform("characterImages/pjy/pjy_standard.png", zoom=zoomNUm)
 image pjy shy_1 = Transform("characterImages/pjy/pjy_shy_1.png", zoom=zoomNUm)
 image pjy shy_2 = Transform("characterImages/pjy/pjy_shy_2.png", zoom=zoomNUm)
@@ -116,7 +116,7 @@ image pjy angry_1 = Transform("characterImages/pjy/pjy_angry_1.png", zoom=zoomNU
 image pjy angry_2 = Transform("characterImages/pjy/pjy_angry_2.png", zoom=zoomNUm)
 
 # 이현서
-define lhs = Character('이현서', color="#6c86c9")
+define lhs = Character('이현서', color="#cad9ff")
 image lhs standard = Transform("characterImages/lhs/lhs_standard.png", zoom=zoomNUm)
 image lhs shy_1 = Transform("characterImages/lhs/lhs_shy_1.png", zoom=zoomNUm)
 image lhs shy_2 = Transform("characterImages/lhs/lhs_shy_2.png", zoom=zoomNUm)
@@ -144,7 +144,7 @@ image jsk angry_2 = Transform("characterImages/jsk/jsk_angry_2.png", zoom=zoomNU
 image jsk angry_3 = Transform("characterImages/jsk/jsk_angry_3.png", zoom=zoomNUm)
 
 # 김민수
-define kms = Character('김민수', color="#199767")
+define kms = Character('김민수', color="#74c7a7")
 
 # Monika
 define mnk = Character('Monika', color="#ec9aef")
@@ -166,7 +166,7 @@ image mnk angry_4 = Transform("characterImages/mnk/mnk_angry_4.png", zoom=zoomNU
 image mnk angry_5 = Transform("characterImages/mnk/mnk_angry_5.png", zoom=zoomNUm)
 
 #박여름
-define pyr = Character('박여름', color="#000563")
+define pyr = Character('박여름', color="#8082d1")
 image pyr standard = Transform("characterImages/pyr/pyr_standard.png", zoom=zoomNUm)
 image pyr shy_1 = Transform("characterImages/pyr/pyr_shy_1.png", zoom=zoomNUm)
 image pyr shy_2 = Transform("characterImages/pyr/pyr_shy_2.png", zoom=zoomNUm)

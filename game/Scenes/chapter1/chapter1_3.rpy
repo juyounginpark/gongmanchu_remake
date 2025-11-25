@@ -53,3 +53,4 @@ label chapter1_3:
 
     show lhs shorked_1 at left_low, bounce:
         xoffset -150
+    jump chapter1_4

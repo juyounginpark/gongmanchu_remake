@@ -27,10 +27,8 @@ label chapter2_1:
     main "(동아리 이름이… 해달? 귀엽다.)"
 
     hide pjy with dissolve
-    show lhs standard at left_low with dissolve:
-        xoffset -150
-    show pjy standard at right_low:
-        xoffset 150
+    show lhs standard at left_low_offset with dissolve
+    show pjy standard at right_low_offset
     
     lhs "저기 주연 선배 아냐?"
     main "응... 근데 괜히 인사하기 좀 그렇다. 기억 못하면 어색할지도…"
@@ -41,12 +39,12 @@ label chapter2_1:
             $likeJuyoun += 20
             main "ㅅ…선배! 안녕하세요."
             
-            show pjy joke_1 at right with dissolve
+            show pjy joke_1 at right_low_offset with dissolve
             pjy "어! 경민 씨! 그땐 잘 들어갔어요?"
             main "(내 이름을 기억하고 있어…!)"
             main "네…! 그땐 감사했어요! 여기서도 열일 하시네요…"
             
-            show pjy shy_1 at right with dissolve
+            show pjy shy_1 at right_low_offset with dissolve
             pjy "ㅎㅎ 신입생들에게 동아리 소개 중이에요. 혹시 동아리 찾고 있어요?"
 
         "인사하지 않는다":
@@ -58,7 +56,7 @@ label chapter2_1:
     lhs "괜찮아 보이는데? 우리 같이 들어갈래?"
     main "응! 저… 해달에 가입하고 싶어요!"
     
-    show pjy joke_1 at right with dissolve
+    show pjy joke_1 at right_low_offset with dissolve
     pjy "진짜요? 환영해요~"
 
     hide pjy with dissolve
