@@ -349,7 +349,7 @@ screen main_menu():
     ## 이렇게 하면 다른 메뉴 화면이 모두 교체됩니다.
     tag menu
 
-    add gui.main_menu_background
+    add "gui/mainpage.png"
 
     ## 이 빈 프레임은 기본 메뉴를 어둡게 만듭니다.
     frame:
