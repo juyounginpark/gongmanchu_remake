@@ -5,17 +5,20 @@ label chapter2_1:
     main "우와… 이게 말로만 듣던 가두모집이구나."
     main "진짜 동아리가 많네… 어떤 동아리에 들어가야 하지?"
 
-    show lhs shorked_1 at left with moveinright
+    show lhs shorked_1 at mid_low
+    with dissolve
+    with moveinright
     lhs "경민아!"
     
     main "헉, 현서야?! 여긴 어쩐 일이야?"
 
-    show lhs standard at left
+    
     lhs "나도 오늘 동아리 구경하러 왔지~"
     lhs "따로 생각해둔 곳이라도 있어?"
 
     main "아니, 아직… 그냥 둘러보는 중이야."
 
+    hide lhs shorked_1
     "(현서와 복작복작한 동아리 라인을 걷는다.)"
     "(다들 자기 동아리 홍보하느라 정신이 없다.)"
     main "(어…? 저기 저 사람은…)"
