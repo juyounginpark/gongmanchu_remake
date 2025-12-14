@@ -2,10 +2,11 @@ label chapter10_2:
     scene night_walk_background with fade
     show pjy standard at right_low:
         xoffset 150
-    pjy "경민아?"
+    pjy "[player_name]?"
     main "어? 선배! 안녕하세요."
     pjy "오늘 시험 끝난 거 맞지?"
     main "네. 드디어 끝났네요."
+    play sound pjy_giggle
     pjy "후후… 그럼 잠깐 걸을래?"
     show pjy sad_1 at right_low:
         xoffset 150
@@ -32,7 +33,7 @@ label chapter10_2:
 
     show pjy sad_1 at right_low:
         xoffset 150
-    pjy "경민아."
+    pjy "[player_name]."
     main "네?"
     pjy "축제 날 내가 말한 소원, 기억나?"
     main "… 다음에도 어디든지 같이 함께하자고, 하셨었죠."
@@ -55,7 +56,7 @@ label chapter10_2:
 
     show pjy shy_2 at right_low:
         xoffset 150
-    pjy "경민이는 내가 좋아?"
+    pjy "[player_name](이)는 내가 좋아?"
     main "…"
 
     "(잡은 손을 중심으로 빙글 돌아 내 앞에 선다.)"
@@ -63,11 +64,12 @@ label chapter10_2:
     pjy "신입생 환영회 때였나? 그때 서투른 네 모습을 보고 1학년의 내가 보이더라고."
     pjy "그래서, 왠지 네 곁을 맴돌게 되더라. 그런데 어쩌다 이렇게 된 거지."
     main "… 네?"
+    play sound pjy_giggle
     pjy "헤헤… 음. 분명 좋은 후배로만 생각했는데, 계속 처음 느끼는 감정을 배우고 있어."
     main "… 저도 그래요."
     pjy "정말?"
     pjy "…"
-    pjy "경민이도 내가 좋아?"
+    pjy "[player_name](이)도 내가 좋아?"
     main "… 네."
 
     main "(심장이 터질 것만 같다.)"

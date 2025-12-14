@@ -5,7 +5,7 @@ label chapter8_1:
     show lhs standard at center:
         xoffset -150
     with dissolve
-    lhs "경민아, 안녕~"
+    lhs "[player_name]! 안녕~"
     main "어어, 안녕!"
     lhs "이제 중간고사도 얼마 안 남았네. 요새 바쁘지? 통 연락도 없고."
     main "아하하… 미안, 일이 좀 많았어."

@@ -15,6 +15,7 @@ label chapter4_3:
     show pyr standard at center with dissolve
     pyr "그래서… 음… 네가 많이 그리웠어."
     pyr "어릴 때 누가 뭐래도 항상 칭찬도, 응원도, 믿음도 줬었던 네가."
+    play sound pyr_giggle
     pyr "갑작스레 떠난 건 난데, 꼴사납지? 하하…"
     main "아, 아니야! (연락도 없길래 그냥 날 잊은 줄 알았는데…)"
     pyr "그런데 있지, 우울감에 한동안 방에만 있었는데, 방 정리를 하다 우연히 옛날 공책을 보게 됐어."

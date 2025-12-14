@@ -1,7 +1,7 @@
 label chapter5_1:
     scene classroom_background with fade
     show lhs standard at center with dissolve
-    lhs "경민아. 혹시 너 지도교수 상담 신청했어?"
+    lhs "[player_name]! 혹시 너 지도교수 상담 신청했어?"
     main "응? 아... 아니 아직. 왜?"
     show lhs shorked_1 at center with dissolve
     lhs "신청 마감까지 이제 3일밖에 안 남았대. 공지 제대로 안 봤지, 너?"

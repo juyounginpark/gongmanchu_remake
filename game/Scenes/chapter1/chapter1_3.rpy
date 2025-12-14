@@ -25,7 +25,7 @@ label chapter1_3:
     
     show pjy standard at right_low:
         xoffset 150
-    pjy "경민 씨는 대구에서 왔다고 했죠?"
+    pjy "[player_name] 씨는 대구에서 왔다고 했죠?"
     main "네. 기차 타고 올라왔어요. 서울은 아직 낯서네요."
 
     pjy "곧 익숙해질 거예요."
@@ -47,6 +47,7 @@ label chapter1_3:
     
     show pjy joke_1 at right_low, bounce:
         xoffset 150
+    play sound pjy_giggle
     pjy "어머, 오늘 후배들 말 너무 예쁘게 하네요. 내가 기분이 다 좋아지네~"
     pjy "자,"
     extend " 그럼 우리 조 첫 모임을 기념해서 건배할까요?"

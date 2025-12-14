@@ -31,6 +31,7 @@ label chapter9_4:
     with dissolve
     pyr "정말?"
     main "응."
+    play sound pyr_giggle
     pyr "흐흐. 알았어."
     pyr "대신 시험 끝나고 많이 놀아주는 거다?"
     main "그래! 끝나자마자 연락할게."
@@ -39,6 +40,7 @@ label chapter9_4:
         xoffset 150
     with dissolve
     pyr "그래~ 그럼 공부나 하자. 음… 뭔가 허전한데."
+    play sound pyr_giggle
     pyr "케이크 먹지 않을래? 흐흐."
     main "하하... 좋아."
     main "(다행이다...)"

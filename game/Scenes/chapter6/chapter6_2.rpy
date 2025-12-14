@@ -9,7 +9,7 @@ label chapter6_2:
     show pjy standard at center:
         xoffset 150 
     with dissolve
-    pjy "오~ 경민이, 여기!"
+    pjy "오~ [player_name], 여기!"
     main "(우와… 진짜… 너무 눈에 띈다.)"
     main "선배, 안녕하세요!"
     pjy "어색하게 굴기는. 오늘은 그냥 즐기는 날인데~"
@@ -18,11 +18,12 @@ label chapter6_2:
     show pjy joke_1 at center:
         xoffset 150 
     with dissolve
-    pjy "오~ 경민이. 힘 좀 줬는데?"
+    pjy "오~ [player_name]. 힘 좀 줬는데?"
     main "네, 넷?"
     show pjy standard at center:
         xoffset 150 
     with dissolve
+    play sound pjy_giggle
     pjy "흐흐, 가자! 나 진짜 가보고 싶은 부스 있단 말야!"
 
     # 경민이 주연의 손에 이끌려 걷는다. 주연이 자연스럽게 손을 잡는다.
@@ -36,6 +37,7 @@ label chapter6_2:
     show pjy joke_1 at center:
         xoffset 150 
     with dissolve
+    play sound pjy_giggle
     pjy "후훗~ 귀여워."
     show pjy standard at center:
         xoffset 150 
@@ -50,6 +52,7 @@ label chapter6_2:
 
     "(잠시 후, 나는 처참하게 패배했다.)"
     main "어렵네요… 하하."
+    play sound pjy_giggle
     pjy "헤헤~ 오늘 운이 좋네. 소원은… 비밀!"
     main "아, 뭐예요…"
     pjy "몰라, 몰라~ 저기 간식 부스다! 빨리 와~"
@@ -79,7 +82,7 @@ label chapter6_2:
     show pjy joke_1 at center:
         xoffset 150 
     with dissolve
-    pjy "경민아, 너 떨려?"
+    pjy "[player_name], 너 떨려?"
     main "아, 아뇨… 그런 건…"
     "타로 리더" "그리고 마지막 조언 카드, ‘별’… 이건 ‘희망’과 ‘진심’을 뜻하는 카드예요. 어떤 감정이든, 진심을 전하면 이루어질 가능성이 높다는 뜻이죠."
     
@@ -91,6 +94,7 @@ label chapter6_2:
     show pjy joke_1 at center:
         xoffset 150 
     with dissolve
+    play sound pjy_giggle
     pjy "뭐래. 기대했어? 흐흐…"
 
     scene night_walk_background 
@@ -99,7 +103,7 @@ label chapter6_2:
         xoffset 150
     pjy "하암… 벌써 해가 졌네. 재밌게 놀았다."
     main "그러게요."
-    pjy "경민아, 오늘 재밌었어?"
+    pjy "[player_name], 오늘 재밌었어?"
     main "네… 정말요. 이런 건 처음이라서…"
     pjy "실은… 나도야."
     show pjy shy_1 at center:

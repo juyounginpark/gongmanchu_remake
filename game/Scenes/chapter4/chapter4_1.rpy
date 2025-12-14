@@ -4,7 +4,7 @@ label chapter4_1:
     main "뭐라도 마셔야지. 오늘도 역시 샤인머스캣으로."
 
     "(음료에 손을 뻗으려는 찰나, 옆에서 익숙한 목소리가 들렸다.)"
-    "???" "혹시… 경민이?"
+    "???" "혹시… [player_name]...?"
 
     "(고개를 돌린다. 긴 흑발에 잔잔한 눈웃음, 어딘가 낯익은 얼굴.)"
     main "어…? 잠깐만. 너… 혹시…"
@@ -13,6 +13,7 @@ label chapter4_1:
         "여름이... 맞지?":
             $ likeYeoreum += 20
             show pyr joke_1 at center with dissolve
+            play sound pyr_giggle
             pyr "맞아. 박여름. 기억하는구나!"
         "미안한데… 혹시 이름이?":
             $ likeYeoreum += 10
@@ -24,7 +25,7 @@ label chapter4_1:
             show pyr sad_2 at center with dissolve
             pyr "… 기억 안 나? 나 박여름."
     
-    show pyr standard at center
+    show pyr standard at center with dissolve
     main "(확실히 기억났다. 나의 초등학교 시절 소꿉친구, 박여름.)"
     main "와, 아니… 진짜 반갑다."
 

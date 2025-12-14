@@ -6,19 +6,19 @@ label chapter2_1:
     main "진짜 동아리가 많네… 어떤 동아리에 들어가야 하지?"
 
     show lhs shorked_1 at mid_low
-    with dissolve
     with moveinright
-    lhs "경민아!"
+    lhs "[player_name]!"
     
     main "헉, 현서야?! 여긴 어쩐 일이야?"
 
     
+    play sound lhs_giggle
     lhs "나도 오늘 동아리 구경하러 왔지~"
     lhs "따로 생각해둔 곳이라도 있어?"
 
     main "아니, 아직… 그냥 둘러보는 중이야."
 
-    hide lhs shorked_1
+    hide lhs
     "(현서와 복작복작한 동아리 라인을 걷는다.)"
     "(다들 자기 동아리 홍보하느라 정신이 없다.)"
     main "(어…? 저기 저 사람은…)"
@@ -43,11 +43,12 @@ label chapter2_1:
             main "ㅅ…선배! 안녕하세요."
             
             show pjy joke_1 at right_low_offset with dissolve
-            pjy "어! 경민 씨! 그땐 잘 들어갔어요?"
+            pjy "어! [player_name] 씨! 그땐 잘 들어갔어요?"
             main "(내 이름을 기억하고 있어…!)"
             main "네…! 그땐 감사했어요! 여기서도 열일 하시네요…"
             
             show pjy shy_1 at right_low_offset with dissolve
+            play sound pjy_giggle
             pjy "ㅎㅎ 신입생들에게 동아리 소개 중이에요. 혹시 동아리 찾고 있어요?"
 
         "인사하지 않는다":
@@ -60,6 +61,7 @@ label chapter2_1:
     main "응! 저… 해달에 가입하고 싶어요!"
     
     show pjy joke_1 at right_low_offset with dissolve
+    play sound pjy_giggle
     pjy "진짜요? 환영해요~"
 
     hide pjy with dissolve

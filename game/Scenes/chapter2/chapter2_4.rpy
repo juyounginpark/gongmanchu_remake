@@ -1,6 +1,7 @@
 label chapter2_4:
     scene night_walk_background with dissolve
-    "(모든 활동이 끝나고, 잠시 피곤해진 나는 밖으로 나왔다.)"
+    
+    "(모든 활동이 끝나고, 소란스러움에 지쳐 잠시 밖으로 나왔다.)"
 
     show pjy standard at center with dissolve
     pjy "혼자 나왔네?"
@@ -31,12 +32,13 @@ label chapter2_4:
 
     main "…지금이 딱 그 느낌이네요."
 
-    "(잠시 조용히 걷는다.)"
+    "(서로 아무 말 없이, 발걸음 소리만 들리는 거리를 걸었다.)"
 
     pause 2.0
 
     show pjy shy_2 at center with dissolve
-    pjy "경민아. 오늘 하루… 네가 있어서 편했어."
+    pjy "[player_name]..."
+    pjy "오늘 하루… 네가 있어서 편했어."
     main "… 저도요."
 
     show pjy shy_1 at center with dissolve

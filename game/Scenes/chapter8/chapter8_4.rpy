@@ -3,7 +3,7 @@ label chapter8_4:
     show pyr standard at center:
         xoffset 150
     with dissolve
-    pyr "경민아! 안녕!"
+    pyr "[player_name]! 안녕!"
     main "어! 응, 안녕."
     pyr "왠지 오랜만이야. 요새 잘 안 보이네…"
     main "응. 시험 준비 때문에 조금 바쁜 것 같아…"
@@ -12,7 +12,7 @@ label chapter8_4:
         xoffset 150
     with dissolve
     pyr "그치만… 다른 사람이랑 있는 건, 잘만 보이던데?"
-    main "(당황) 그건… 그냥 우연이야."
+    main "(...당황스럽네.) 그건… 그냥 우연이야."
     
     show pyr sad_1 at center:
         xoffset 150

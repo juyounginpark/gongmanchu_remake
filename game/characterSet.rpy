@@ -38,6 +38,14 @@ image campus_walk_night_background = "backgrouds/night_walk_background.png"
 image professor_office_background = "backgrouds/professor_office_background.png"
 image building_lobby_background = "backgrouds/campus_walk_background.png"
 
+# === 오디오 정의 ===
+init:
+    define audio.pjy_giggle = "bgms/pjy_giggle.mp3"
+    define audio.lhs_giggle = "bgms/lhs_giggle.mp3"
+    define audio.jsk_giggle = "bgms/jsk_giggle.mp3"
+    define audio.mnk_giggle = "bgms/mnk_giggle.mp3"
+    define audio.pyr_giggle = "bgms/pyr_giggle.mp3"
+$ renpy.music.set_volume(1.5, channel='sound')
 # === 상수 정의 ===
 define X_LEFT   = 0.0
 define X_CENTER = 0.5
@@ -90,7 +98,7 @@ transform bounce:
     linear 0.15 yoffset 0
 
 #main
-define main = Character('서경민', color="#ffffff")
+define main = Character('[player_name]', color="#ffffff")
 
 #system
 define system = Character('System', color="#000000")

@@ -8,22 +8,19 @@ label chapter4_4:
     pyr "… 그러네. 있잖아."
     main "응?"
     pyr "너는 참 변한 게 없는 것 같아. 상냥하고, 말도 잘 들어주고."
+    
     show pyr shy_1 at center:
         xoffset -150 
     with dissolve
     pyr "그래서 그런데…"
 
-    hide pyr 
-    with dissolve
-    main "아, 아니야. 아무것도. 음, 혹시 다음 수업 있어?"
-    main "아니… 없어."
-    pyr "그럼 좀 같이 걸을래?"
-    main "! ...그래!"
+    main "응? 무슨 일 있어?"
+    pyr "아, 아니야. 그냥 혼잣말."
 
     show pjy standard at right_low:
         xoffset 150 
     with dissolve
-    pjy "어라? 경민이 안녕? 여기서 보네."
+    pjy "어라? [player_name] 안녕? 여기서 보네."
     main "주연 선배…!"
     pjy "이쪽은…"
 
@@ -46,7 +43,7 @@ label chapter4_4:
     
     pyr "난 이만 가볼게. 아. 잠시만… 손 좀 줘봐."
 
-    main "이건… 반지잖아."
+    main "이건… 반지잖아?"
     show pyr shy_1 at left_low:
         xoffset -150 
     with dissolve
@@ -68,14 +65,17 @@ label chapter4_4:
     
     hide pjy 
     with dissolve
-    "(둘이 멀어지는 모습을 번갈아 보는 그때-)"
-    "(조용히 반대쪽에 있던 한 사람.)"
+    
+    main "(두 사람이 떠난 자리를 멍하니 바라보았다.)"
+    main "(그런데 저쪽에서...)"
     
     show jsk sad_1 at center:
         xoffset 150 
     with dissolve
     main "성경이…?"
-    "(말없이 경민을 바라보다 손을 흔들고 사라진다.)"
+    
+    "(성경이는 말없이 나를 바라보더니, 작게 손을 흔들고는 사라졌다.)"
+    
     hide jsk 
     with dissolve
 

@@ -30,6 +30,7 @@ label chapter2_2:
     with dissolve
     pjy "그나저나, 학교생활은 할 만해? 수업은 좀 어때?"
     main "그럭저럭이요. 어제 수업은 솔직히 조금 졸았어요…"
+    play sound pjy_giggle
     pjy "ㅎㅎ 처음엔 다 그렇지. 학식은 먹어봤어?"
     main "네. 공식당 갔는데 줄이 엄청 길던데요."
     pjy "맞아~ 거긴 항상 그래. 다음엔 '러브로드' 쪽 건너서 있는 정보화 식당 가봐."
@@ -69,6 +70,7 @@ label chapter2_2:
     show pjy joke_1 at right_low:
         xoffset 150
     with dissolve
+    play sound pjy_giggle
     pjy "흐흐, 괜찮아. 아직 1학년이잖아. 러브로드는 천천히 걸어야 제맛이지~"
     pjy "아 맞다, 이번 MT 신청했어? 가서 신나게 놀자~"
     

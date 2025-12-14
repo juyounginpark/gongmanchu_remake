@@ -22,7 +22,7 @@ define gui.show_name = True
 
 ## 게임의 버전입니다.
 
-define config.version = "제작: 박주영 정경석 김재은 김현서 김민우"
+define config.version = "2.0"
 
 
 ## 게임의 about 스크린에 배치되는 텍스트입니다. 텍스트를 삼중 따옴표 사이에 배치

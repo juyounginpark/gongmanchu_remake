@@ -28,6 +28,7 @@ label chapter6_4:
     show pyr standard at center:
         xoffset 150
     with dissolve
+    play sound pyr_giggle
     pyr "헤헤, 아무것도 아니야."
 
     main "어? 저건 뭐야?"
@@ -52,6 +53,7 @@ label chapter6_4:
     pyr "… 완성."
     main "와… 이거 진짜, 잘 그렸다."
     main "(왠지, 거울의 나보다 더 잘생기게 나온 것 같은데…)"
+    play sound pyr_giggle
     pyr "헤헤. 오늘 하루 네 표정이 담겨 있어. 그리고…"
     pyr "\"2025 축제, 같이 웃었던 날.\""
     pyr "이건 선물. 예전처럼… 잊지 말라고."
@@ -72,7 +74,7 @@ label chapter6_4:
     main "으, 응?"
     pyr "아니야. 사실… 이런 게 처음이라서…"
 
-    "우리는 보드에 '경민, 여름'이라고 적고 작은 햇살 그림을 그렸다."
+    "우리는 보드에 '[player_name], 여름'이라고 적고 작은 햇살 그림을 그렸다."
     main "햇살?"
     pyr "너는 항상 햇살 같아서. 항상 밝고, 오래오래… 비춰주는."
     main "(…가슴이 살짝 뛴다.)"
